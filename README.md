@@ -1,5 +1,6 @@
 # switchCaseExercise
-# Crie um menu com opções de 1 até 7 onde o usuário digite um número, cada número deve mostrar uma frase da sorte diferente do outro. 
+Crie um menu com opções de 1 até 7 onde o usuário digite um número, cada número deve mostrar uma frase da sorte diferente do outro. 
+
 
 package aula02.estruturasCondicionais;
 import java.util.Scanner;
@@ -8,7 +9,7 @@ import java.util.Scanner;
 public class switchCase {
     public static void main(String[] args) {
         Scanner scan = new Scanner(System.in);
-        // Crie um menu de 1 a 7 onde o usuário digite um número e mostre qual a frase da sorte daquele número.
+       
         
         System.out.println("Digite um número de 1 até 7 e veja a sua sorte do dia: ");
 
