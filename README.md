@@ -4,16 +4,15 @@ Crie um menu com opções de 1 até 7 onde o usuário digite um número, cada n�
 
 package aula02.estruturasCondicionais;
 import java.util.Scanner;
-
-
-public class switchCase {
-    public static void main(String[] args) {
-        Scanner scan = new Scanner(System.in);
        
         
-        System.out.println("Digite um número de 1 até 7 e veja a sua sorte do dia: ");
-
-        byte number = scan.nextByte();
+        public class switchCase {
+            public static void main(String[] args) {
+                Scanner scan = new Scanner(System.in);
+                System.out.println("Digite um número de 1 até 7 e veja a sua sorte do dia: ");
+                byte number = scan.nextByte();
+        
+        
         switch (number) {
             case 1:
                 System.out.println("Demonstre amor e alegria em todas as oportunidades e verás que a paz nasce dentro de você.");
