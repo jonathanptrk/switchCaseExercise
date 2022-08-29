@@ -5,7 +5,7 @@ Crie um menu com opções de 1 até 7 onde o usuário digite um número, cada n�
         package aula02.estruturasCondicionais;
         import java.util.Scanner;
         
-        public class switchCase {
+        public class SwitchCase {
             public static void main(String[] args) {
                 Scanner scan = new Scanner(System.in);
                 System.out.println("Digite um número de 1 até 7 e veja a sua sorte do dia: ");
